@@ -1,0 +1,52 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Black.ttf);
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(230, 231, 231);
+}
+
+header>li a{
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(2fr 6fr 4fr);
+    justify-items: end;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+header>a{
+    text-decoration: none;
+    color: rgb(76, 184, 226);
+    font-family: Montserrat;
+}
+
+span>div h1{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+span>div h2{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Black.ttf);
+}
+
+
+footer{
+    background-color: rgb(230, 231, 231);
+}
+
